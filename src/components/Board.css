@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.row>input:nth-child(3n) {
+    margin-right: 20px;
+}
+
+.row:nth-child(3n+1) {
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 2ch;
+    height: 2ch;
+    text-align: center;
+    border: none;
+}
